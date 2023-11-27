@@ -13,6 +13,7 @@ h2{
 .letras-tareas{
   font-family: 'Black';
   color: aliceblue;
+  list-style:  none;
 }
 
 .letras{

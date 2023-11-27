@@ -16,7 +16,7 @@ const agregarTarear = ()=>{
     //creamos el elemento li 
     const elementoLista = document.createElement('li');
     //agregamos estilo a la clase
-    listaTareas.className = 'letras-tareas m-2 '
+    elementoLista.className = 'letras-tareas m-2 '
     //agregamos el elemento li de la tarea
     elementoLista.innerText = tareaAgregada;
    
