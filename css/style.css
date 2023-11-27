@@ -4,6 +4,19 @@ body{
   flex-direction: column;
 }
 
+header{
+  background-image: linear-gradient(135deg, #944b47 10%, #240f29 100%);
+  color: aliceblue;
+  font-family: 'Tourney';
+}
+
 main{
   flex-grow: 1;
+  background-image: linear-gradient(135deg, #F05F57 10%, #360940 100%);
+}
+
+footer{
+  color: aliceblue;
+    background-image: linear-gradient(135deg, #5d3432 10%, #240f29 100%);
+    font-family: 'Tourney';
 }
