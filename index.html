@@ -20,24 +20,18 @@
 <body>
 
   <header class="letras text-center py-4">Lista de Tareas 📝</header>
-  <main>
-    <section class="container-fluid text-center">
-      <div class="row">
-        <div class="col-md-6">
-          <h2 class="py-3 mt-3">Lista de Tareas</h2>
-          <div class="input-group mb-3">
-            <input type="text" id="inputTarea" class="form-control" placeholder="Ingrese tarea">
-            <div class="input-group-append">
-              <button id="agregarBtn" class="letras btn btn-primary">Agregar</button>
-            </div>
-          </div>
-          <ul id="listaTareas" class="list-group">
-            <!-- Aquí se agregarán las tareas -->
-          </ul>
+  <main class="text-center">
+    <section class="container-fluid text-center row mt-5">
+      <h2 class="letras">Lista de Tareas</h2>
+      <div class="contenedor-input m-3">
+        <input type="text" id="tareaInput" class="form-control my-3" placeholder="Ingrese una tarea">
+        <div class="boton-input">
+          <button class="btn btn-primary" id="btn-agregar">Agregar Tarea</button>
         </div>
       </div>
-      </div>
     </section>
+    <ul class="lista-tarea" id="listaTareas">
+    </ul>
 
   </main>
   <footer class="letras text-center py-4">

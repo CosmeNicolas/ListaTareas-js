@@ -10,8 +10,13 @@ h2{
   
 }
 
+.letras-tareas{
+  font-family: 'Black';
+  color: aliceblue;
+}
+
 .letras{
-  font-family: 'Tourney';;
+  font-family: 'Tourney';
 }
 
 header{
